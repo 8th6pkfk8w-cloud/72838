@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>高知県地図アプリ</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Leaflet CSS（HTTPS & GitHub Pages対応） -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        integrity="sha256-u0vN/1B2zH37I7UuXbLG0ahJ7jFZ83p7+pVgEKs+0LI=" crossorigin=""/>
+</head>
+<body>
+  <h1>高知県地図アプリ</h1>
+
+  <div class="buttons">
+    <button id="tourism">観光</button>
+    <button id="food">食</button>
+    <button id="events">イベント</button>
+  </div>
+
+  <div id="map"></div>
+
+  <!-- Leaflet JS（HTTPS & GitHub Pages対応） -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+          integrity="sha256-puB2QFShm4n/IzZ59Qm9A6tA/q4gEtxUOD80/dp1G+k=" crossorigin=""></script>
+  <script src="script.js"></script>
+</body>
+</html>
